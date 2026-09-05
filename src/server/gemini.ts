@@ -1,18 +1,22 @@
-import { GoogleGenAI } from "@google/genai";
-import type { AnalysisResult } from "../lib/analysis-types";
+import { GoogleGenAI } from '@google/genai';
+import type { AnalysisResult } from '../lib/analysis-types';
+import { parseAndSanitizeAnalysis } from '../lib/result-parser';
 
-// We'll initialize it lazily so the app doesn't crash on startup if the key is missing
-let ai: GoogleGenAI | null = null;
+let primaryClient: GoogleGenAI | null = null;
+let backupClient: GoogleGenAI | null = null;
 
-function getAI() {
-  if (!ai) {
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) {
-      throw new Error("GEMINI_API_KEY environment variable is missing.");
-    }
-    ai = new GoogleGenAI({ apiKey });
+function getClient(keyName: 'primary' | 'backup'): GoogleGenAI | null {
+  if (keyName === 'primary') {
+    const key = process.env.GEMINI_API_KEY;
+    if (!key) return null;
+    if (!primaryClient) primaryClient = new GoogleGenAI({ apiKey: key });
+    return primaryClient;
+  } else {
+    const key = process.env.GEMINI_API_KEY_BACKUP;
+    if (!key) return null;
+    if (!backupClient) backupClient = new GoogleGenAI({ apiKey: key });
+    return backupClient;
   }
-  return ai;
 }
 
 export async function analyzeMediaWithGemini(
@@ -20,7 +24,12 @@ export async function analyzeMediaWithGemini(
   mimeType: string,
   fileName: string
 ): Promise<AnalysisResult> {
-  const aiClient = getAI();
+  const primary = getClient('primary');
+  const backup = getClient('backup');
+
+  if (!primary && !backup) {
+    throw new Error('The AI analysis service is temporarily unavailable. Please verify API key configuration.');
+  }
 
   const prompt = `
 You are a highly advanced forensic media analyst AI named AI Ano. 
@@ -66,70 +75,66 @@ Important rules:
 3. Be brutally honest. If you see AI artifacts (weird fingers, illogical lighting, background blurring), flag them as HIGH severity evidence.
 `;
 
-  let response;
-  try {
-    response = await aiClient.models.generateContent({
-      model: "gemini-3.5-flash-lite",
-      contents: [
-        {
-          role: "user",
-          parts: [
-            { text: prompt },
-            { inlineData: { data: base64Data, mimeType } },
-          ],
-        },
-      ],
-      config: {
-        responseMimeType: "application/json",
-        temperature: 0.2,
-      },
-    });
-  } catch (error: any) {
-    console.warn("Primary API key failed or rate limited:", error?.message);
-    const backupKey = process.env.GEMINI_API_KEY_BACKUP;
-    if (backupKey) {
-      console.log("Switching to BACKUP API KEY...");
-      const backupAi = new GoogleGenAI({ apiKey: backupKey });
-      response = await backupAi.models.generateContent({
-        model: "gemini-3.5-flash-lite",
-        contents: [
-          {
-            role: "user",
-            parts: [
-              { text: prompt },
-              { inlineData: { data: base64Data, mimeType } },
-            ],
-          },
+  const requestPayload = {
+    model: 'gemini-3.5-flash-lite',
+    contents: [
+      {
+        role: 'user',
+        parts: [
+          { text: prompt },
+          { inlineData: { data: base64Data, mimeType } },
         ],
-        config: {
-          responseMimeType: "application/json",
-          temperature: 0.2,
-        },
-      });
-    } else {
-      throw error;
+      },
+    ],
+    config: {
+      responseMimeType: 'application/json',
+      temperature: 0.2,
+    },
+  };
+
+  let responseText: string | undefined;
+
+  // Try primary client first if available
+  if (primary) {
+    try {
+      const resp = await primary.models.generateContent(requestPayload);
+      responseText = resp.text;
+    } catch (primaryErr: any) {
+      console.warn('Primary Gemini client error:', primaryErr?.message || primaryErr);
+      if (backup) {
+        console.info('Switching to BACKUP Gemini client...');
+        try {
+          const resp = await backup.models.generateContent(requestPayload);
+          responseText = resp.text;
+        } catch (backupErr: any) {
+          console.error('Backup Gemini client also failed:', backupErr?.message || backupErr);
+          throw new Error('The AI analysis service is temporarily busy. Please retry in a few moments.');
+        }
+      } else {
+        const msg = String(primaryErr?.message || '');
+        if (msg.includes('429') || msg.includes('quota') || msg.includes('RESOURCE_EXHAUSTED')) {
+          throw new Error('Analysis request limit reached. Please try again shortly.');
+        } else if (msg.includes('503') || msg.includes('high demand') || msg.includes('UNAVAILABLE')) {
+          throw new Error('The AI model is experiencing high demand. Please retry in a few seconds.');
+        }
+        throw new Error('Unable to analyze this media right now. Please try again.');
+      }
+    }
+  } else if (backup) {
+    // Only backup available
+    try {
+      const resp = await backup.models.generateContent(requestPayload);
+      responseText = resp.text;
+    } catch (backupErr: any) {
+      console.error('Backup Gemini client error:', backupErr?.message || backupErr);
+      throw new Error('Unable to analyze this media right now. Please try again.');
     }
   }
 
-  const text = response.text;
-  if (!text) {
-    throw new Error("No response from Gemini API");
+  if (!responseText) {
+    throw new Error('Empty AI response received from media analysis service.');
   }
 
-  try {
-    const json = JSON.parse(text);
-    
-    // Add required fields that we generate on the server
-    const result: AnalysisResult = {
-      ...json,
-      id: crypto.randomUUID().slice(0, 8),
-      createdAt: new Date().toLocaleString('en-US', { month: 'long', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short' }),
-      mediaName: fileName,
-    };
-    
-    return result;
-  } catch (error) {
-    console.error("Failed to parse Gemini response:", text);
-    throw new Error("The AI returned invalid JSON. Please try again.");
-  }
+  // Parse and sanitize the response into a guaranteed valid AnalysisResult
+  return parseAndSanitizeAnalysis(responseText, fileName);
 }

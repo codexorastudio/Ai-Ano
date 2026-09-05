@@ -670,5 +670,245 @@
     "id": "cde1f5b1",
     "createdAt": "September 5, 2026 at 11:40 AM GMT+5:30",
     "mediaName": "WhatsApp Video 2026-09-05 at 11.36.13 AM (1).mp4"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
   }
 ]
