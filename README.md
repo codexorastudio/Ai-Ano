@@ -1,4 +1,4 @@
-# AI ANO? — AI Media Verification Platform
+# TrustLens — AI Media Verification Platform
 > **See. Verify. Trust.** Probabilistic, evidence-led media verification designed to support, not replace, human judgment.
 
 [![Vercel Deployment](https://img.shields.io/badge/Deployment-Vercel-black?style=flat&logo=vercel)](https://ai-ano.vercel.app)
@@ -16,10 +16,10 @@ Current detection tools suffer from critical flaws:
 * **False Certainty**: Binary classification fails to reflect the nuanced, probabilistic nature of media analysis.
 * **Lack of Context**: Synthetic media often repurposes genuine imagery with misleading captions, crops, or out-of-context dates.
 
-## 2. The Solution: AI ANO?
-**AI ANO?** (*"Is it AI?"*) is a comprehensive, evidence-led digital media forensics and verification platform. It allows journalists, researchers, fact-checkers, and everyday digital citizens to inspect suspicious images, audio clips, and videos for signals of generative AI and synthetic manipulation.
+## 2. The Solution: TrustLens
+**TrustLens** (*"Is it AI?"*) is a comprehensive, evidence-led digital media forensics and verification platform. It allows journalists, researchers, fact-checkers, and everyday digital citizens to inspect suspicious images, audio clips, and videos for signals of generative AI and synthetic manipulation.
 
-Rather than issuing unverifiable absolute verdicts, AI ANO? delivers **structured, explainable forensic assessments** that highlight tangible evidence—including anatomical consistency, lighting irregularities, sensor noise distribution, compression artifacts, and timeline context.
+Rather than issuing unverifiable absolute verdicts, TrustLens delivers **structured, explainable forensic assessments** that highlight tangible evidence—including anatomical consistency, lighting irregularities, sensor noise distribution, compression artifacts, and timeline context.
 
 ---
 
@@ -41,7 +41,7 @@ Rather than issuing unverifiable absolute verdicts, AI ANO? delivers **structure
   * Provenance timeline tracing.
   * Context comparison against circulating archives.
   * Conditional media comparison (only shown when matching versions actually exist).
-* **Exportable Verification Reports**: Instant, downloadable structured forensic reports (`aiano-report-[id].txt`).
+* **Exportable Verification Reports**: Instant, downloadable structured forensic reports (`trustlens-report-[id].txt`).
 * **Dual-Key Failover Engine**: Server-side fallback logic automatically routes requests to a secondary Gemini API key if rate limits (`429`) or server spikes (`503`) occur.
 
 ---
@@ -78,7 +78,7 @@ Rather than issuing unverifiable absolute verdicts, AI ANO? delivers **structure
 
 ## 7. Automated Testing Suite
 
-AI ANO? features a comprehensive automated testing suite built with **Vitest** and **React Testing Library**.
+TrustLens features a comprehensive automated testing suite built with **Vitest** and **React Testing Library**.
 
 ### Test Suite Overview:
 * **`src/lib/media-validator.test.ts`**: Unit tests for file format verification (image/audio/video), extension matching, 10 MB size limits, empty file rejection, and URL syntax validation.
@@ -161,10 +161,10 @@ Live Production URL: [https://ai-ano.vercel.app](https://ai-ano.vercel.app)
 ---
 
 ## 10. Responsible AI & Forensic Disclaimer
-AI ANO? does **not** claim absolute mathematical certainty in its media assessments. Digital forensics on compressed web media inherently deals with statistical probabilities. Factors such as lossy re-encoding, heavy social media filters, artistic lighting, and novel generative algorithms can create both false positives and false negatives.
+TrustLens does **not** claim absolute mathematical certainty in its media assessments. Digital forensics on compressed web media inherently deals with statistical probabilities. Factors such as lossy re-encoding, heavy social media filters, artistic lighting, and novel generative algorithms can create both false positives and false negatives.
 
-AI ANO? is designed as an investigative aid to assist human fact-checkers, journalists, and citizens in making informed decisions. Always corroborate digital media findings with origin sources, contextual verification, and journalistic investigation before reaching definitive conclusions.
+TrustLens is designed as an investigative aid to assist human fact-checkers, journalists, and citizens in making informed decisions. Always corroborate digital media findings with origin sources, contextual verification, and journalistic investigation before reaching definitive conclusions.
 
 ---
 
-© 2026 AI ANO AI — Truth in Media Verification.
+© 2026 TrustLens — Truth in Media Verification.

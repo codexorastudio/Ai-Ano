@@ -158,7 +158,7 @@ export function parseAndSanitizeAnalysis(rawText: string, fileName: string): Ana
           { label: 'Platform Circulation', detail: 'First indexed digital appearance', date: 'Circulation' },
           { label: 'Forensic Ingestion', detail: 'Submitted for algorithmic verification', date: 'Today' },
           { label: 'Heuristic Scans', detail: 'Texture, lighting, and metadata inspection', date: 'Just now' },
-          { label: 'AI ANO Assessment', detail: 'Probabilistic evidence compilation completed', date: 'Current' },
+          { label: 'TrustLens Assessment', detail: 'Probabilistic evidence compilation completed', date: 'Current' },
         ],
   };
 

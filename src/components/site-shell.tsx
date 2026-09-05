@@ -16,7 +16,7 @@ export function Brand() {
     <Link to="/" className="flex items-center gap-2.5 font-display text-foreground">
       <span className="grid size-9 place-items-center rounded-lg bg-primary text-primary-foreground shadow-button"><ScanSearch className="size-5" /></span>
       <div className="flex flex-col">
-        <span className="font-extrabold text-base leading-tight tracking-tight">AI ANO?</span>
+        <span className="font-extrabold text-base leading-tight tracking-tight">TrustLens</span>
         <span className="text-[9px] font-bold text-primary leading-tight tracking-widest uppercase">Media Verification</span>
       </div>
     </Link>
@@ -61,7 +61,7 @@ export function SiteFooter() {
         <FooterGroup title="Company" links={[['About','/about'],['Contact','/about#contact']]} />
         <FooterGroup title="Legal" links={[['Privacy','/about#legal'],['Terms','/about#legal']]} />
       </div>
-      <div className="border-t border-border px-5 py-5 text-center text-xs text-muted-foreground">© 2026 AI Ano. Verification supports informed decisions; it does not establish absolute truth.</div>
+      <div className="border-t border-border px-5 py-5 text-center text-xs text-muted-foreground">© 2026 TrustLens. Verification supports informed decisions; it does not establish absolute truth.</div>
     </footer>
   );
 }

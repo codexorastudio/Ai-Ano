@@ -74,9 +74,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Ano" },
+      { title: "TrustLens" },
       { name: "description", content: "Understand and verify potentially manipulated digital media." },
-      { name: "author", content: "AI Ano" },
+      { name: "author", content: "TrustLens" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

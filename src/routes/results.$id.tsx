@@ -6,8 +6,8 @@ import { getResultFn } from "@/server/functions";
 
 export const Route = createFileRoute("/results/$id")({ 
   head: () => ({ meta: [
-    { title: "Verification Results — AI Ano" }, { name: "description", content: "Review a probabilistic media assessment, evidence breakdown, explanation, and source context." },
-    { property: "og:title", content: "Verification Results — AI Ano" }, { property: "og:description", content: "Review evidence and source context behind a media assessment." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
+    { title: "Verification Results — TrustLens" }, { name: "description", content: "Review a probabilistic media assessment, evidence breakdown, explanation, and source context." },
+    { property: "og:title", content: "Verification Results — TrustLens" }, { property: "og:description", content: "Review evidence and source context behind a media assessment." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
   ]}), 
   loader: async ({ params }) => {
     return await getResultFn({ data: { id: params.id } });
