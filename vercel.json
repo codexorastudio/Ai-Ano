@@ -3,7 +3,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "dist/server/server.js": {
+    "api/index.js": {
       "includeFiles": "dist/server/**"
     }
   },
@@ -14,7 +14,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/server/server.js"
+      "dest": "/api/index.js"
     }
   ]
 }
