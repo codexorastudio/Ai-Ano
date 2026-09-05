@@ -1,0 +1,674 @@
+[
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 95,
+    "aiProbability": 95,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "The image exhibits classic hallmarks of generative AI, specifically designed for commercial advertising. The central character representing a traditional figure (likely Mahabali for Onam) has smooth, hyper-stylized 3D rendering textures, overly symmetrical facial features, and slightly distorted anatomical proportions common in AI tools like Midjourney or DALL-E. Furthermore, the text elements in Malayalam are completely gibberish or nonsensical characters resembling Malayalam script, which is a definitive indicator of text-to-image generation models struggling with non-Latin typography.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Gibberish Typography",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The text in the Malayalam script and dialogue bubbles consists of malformed, non-sensical characters rather than coherent words, a common artifact of AI image generators."
+      },
+      {
+        "id": "ev-2",
+        "title": "Hyper-Stylized 3D Render Texture",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The character and food items feature an unmistakable plastic, overly-smooth 3D rendered look typical of modern AI image generation prompts."
+      },
+      {
+        "id": "ev-3",
+        "title": "Anatomical Simplification",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "The hands and fingers of the character lack realistic joint definition and skin texture, presenting a simplified, smooth appearance characteristic of AI rendering."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Commercial promotional graphic generated using AI tools for a local restaurant advertisement.",
+      "captionDifferences": "N/A",
+      "timeline": []
+    },
+    "id": "5698f9d7",
+    "createdAt": "September 5, 2026 at 10:55 AM GMT+5:30",
+    "mediaName": "6d3f3987-1f15-46e4-86c9-8a803c8366df.png"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 12,
+    "aiProbability": 5,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "The image exhibits natural photographic characteristics consistent with a genuine portrait taken on a mobile device or standard camera. The lighting is soft and directional, creating realistic specular highlights in the eyes and natural shadows beneath the subject. Skin texture shows authentic micro-details such as fine pores and natural imperfections rather than the characteristic smoothing often found in AI-generated imagery. Anatomical features, including the hands, fingers, and facial symmetry, are structurally correct. The filename indicates transmission via WhatsApp, which typically applies standard lossy compression without altering the core authenticity of the capture.",
+    "evidence": [
+      {
+        "id": "ev-01",
+        "title": "Natural Skin Texture",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Skin surface contains natural micro-textures, subtle variations, and fine pores without the artificial smoothness typical of generative models."
+      },
+      {
+        "id": "ev-02",
+        "title": "Anatomical Accuracy",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Fingers, hands, and facial proportions are anatomically correct and consistent with a real infant."
+      },
+      {
+        "id": "ev-03",
+        "title": "WhatsApp Metadata Trace",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "Filename pattern suggests standard messaging app transmission, which often results in minor compression artifacts but no structural manipulation."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "2026-08-27",
+      "matchingMedia": 0,
+      "contextComparison": "Standard personal or shared media file with no indications of malicious manipulation or deepfake generation.",
+      "captionDifferences": "None",
+      "timeline": [
+        {
+          "label": "Capture / Received",
+          "detail": "Image received via messaging platform.",
+          "date": "2026-08-27"
+        }
+      ]
+    },
+    "id": "c788977d",
+    "createdAt": "September 5, 2026 at 10:56 AM GMT+5:30",
+    "mediaName": "WhatsApp Image 2026-08-27 at 10.59.32 AM (1).jpeg"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 95,
+    "aiProbability": 98,
+    "manipulationProbability": 15,
+    "confidence": "High",
+    "explanation": "The image exhibits classic telltale signs of generative AI creation, commonly used for promotional graphics and advertisements. The central character (depicting Mahabali for an Onam sadhya ad) has characteristic smooth, highly-polished 3D render textures, unnaturally symmetrical facial features, and slightly distorted finger anatomy. Furthermore, the Malayalam text and text-like symbols within speech bubbles are rendered with synthetic artifacts typical of text-to-image models. The overall hyper-glossy lighting and composite nature strongly indicate it was generated using an AI tool.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Synthetic 3D Character Rendering",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The character features a smooth, glossy 3D-rendered texture with hyper-saturated colors and lighting typical of modern generative AI art tools."
+      },
+      {
+        "id": "ev-2",
+        "title": "Anatomical Simplification in Hands",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "The hands resting near the banana leaf show minor structural simplification and lack realistic skin texture, common in AI-generated figures."
+      },
+      {
+        "id": "ev-3",
+        "title": "AI Typography and Glyph Artifacts",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "While the main overlaid typography is clean vector text added in post-production, the decorative shapes and glyphs inside the speech bubbles display characteristic AI rendering artifacts."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Promotional graphic created for a local restaurant advertisement using generative AI tools.",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "id": "5a21e469",
+    "createdAt": "September 5, 2026 at 10:58 AM GMT+5:30",
+    "mediaName": "6d3f3987-1f15-46e4-86c9-8a803c8366df.png"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 8,
+    "aiProbability": 5,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "The image exhibits natural anatomical consistency, including realistic skin textures, correct finger structure on both hands, and natural lighting reflections in the eyes. The filename indicates transmission via WhatsApp, which accounts for minor compression artifacts, but the visual elements strongly support authentic capture rather than AI generation or digital tampering.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Anatomical Consistency",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "The fingers, nails, facial features, and proportions of the infant are anatomically correct without the typical distortion or artifacting common in AI-generated imagery."
+      },
+      {
+        "id": "ev-2",
+        "title": "Natural Lighting and Reflections",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Catchlights in the eyes and light falloff across the face and clothing match natural indoor photographic conditions."
+      },
+      {
+        "id": "ev-3",
+        "title": "WhatsApp Compression Trace",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "The filename format points to WhatsApp transfer, which typically applies mild lossy compression to JPEGs but does not indicate synthetic origin."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Standard family portrait context with no known misinformation vector.",
+      "captionDifferences": "None",
+      "timeline": [
+        {
+          "label": "File Generation",
+          "detail": "Image received or created via WhatsApp",
+          "date": "2026-08-27"
+        }
+      ]
+    },
+    "id": "4842ca7e",
+    "createdAt": "September 5, 2026 at 10:58 AM GMT+5:30",
+    "mediaName": "WhatsApp Image 2026-08-27 at 10.59.32 AM (1).jpeg"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 99,
+    "aiProbability": 99,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "The video displays textbook characteristics of generative AI video models. It features surreal and biologically impossible elements (a green-furred, winged lion cub vomiting rainbows, giant floating strawberries, glowing blue roses, and alien planets in the sky). The high level of stylistic consistency combined with fantastical elements confirms it was entirely synthesized by artificial intelligence tools.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Fantastical and Impossible Subject Matter",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The video features a green-furred cub with wings, vomiting rainbow liquid, surrounded by giant strawberries and blue roses, which does not exist in reality."
+      },
+      {
+        "id": "ev-2",
+        "title": "Surreal Environmental Backgrounds",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "Backgrounds shift rapidly between impossible dreamscapes featuring multiple moons, Saturn-like planets, floating castles, and magical waterfalls."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "N/A",
+      "captionDifferences": "N/A",
+      "timeline": []
+    },
+    "id": "7b8b2138",
+    "createdAt": "September 5, 2026 at 11:02 AM GMT+5:30",
+    "mediaName": "WhatsApp Video 2026-09-05 at 11.01.36 AM.mp4"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 95,
+    "aiProbability": 95,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "The image exhibits several hallmarks of modern generative AI imagery. The filename 'ChatGPT Image...' directly indicates creation via OpenAI's DALL-E 3 image generation tool. Visually, the text on various objects (books, posters, laptop, mug) is remarkably clear and correctly spelled, but displays synthetic design coherence often found in AI. The lighting shows typical AI rendering traits: overly clean textures, artificial glow mapping on surfaces, and hyper-stylized composition with a glossy, cinematic finish.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Filename Metadata Indicator",
+        "severity": "HIGH",
+        "category": "metadata",
+        "description": "The file is explicitly named 'ChatGPT Image Sep 5, 2026...', which is the default naming convention used when downloading generated images from ChatGPT/DALL-E."
+      },
+      {
+        "id": "ev-2",
+        "title": "Synthetic Text Uniformity",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "Multiple text elements ('A BETTER VERSION OF ME', 'Discipline Creates Freedom', book titles, mug text) appear uniformly crisp and synthesized, lacking the natural imperfections of physical signage or printed media."
+      },
+      {
+        "id": "ev-3",
+        "title": "Artificial Lighting and Gloss",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The interior lighting combines warm indoor lamp glow with cool moonlight in a hyper-stylized manner characteristic of text-to-image generators prioritizing aesthetic appeal over optical realism."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Generated digitally via AI tool.",
+      "captionDifferences": "N/A",
+      "timeline": []
+    },
+    "id": "132e04c3",
+    "createdAt": "September 5, 2026 at 11:08 AM GMT+5:30",
+    "mediaName": "ChatGPT Image Sep 5, 2026, 10_36_22 AM.png"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 95,
+    "aiProbability": 98,
+    "manipulationProbability": 15,
+    "confidence": "High",
+    "explanation": "A detailed visual inspection of the image reveals several distinct hallmarks of modern generative AI models. The text elements scattered across multiple surfaces—such as the books ('Tech', 'Ideas', 'Productivity', 'A Healthier Me'), the wall posters ('A BETTER VERSION OF ME', 'Discipline Creates Freedom'), the mug, laptop, and the to-do list—are unnaturally crisp, uniform, and synthetically arranged, lacking the typical imperfections or handwriting variations of real life. Additionally, the anatomical structure of the hand supporting the subject's chin displays structural blending and stiffness characteristic of diffusion-generated imagery. The lighting is overly cinematic, blending internal warm lamp glow with an artificial bluish night landscape out the window in a way that suggests algorithmic scene composition rather than a genuine photograph.",
+    "evidence": [
+      {
+        "id": "ev-01",
+        "title": "Synthetic Typography and Text Rendering",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "Text on the book spines, posters, mug, and laptop is perfectly formatted and rendered without artifacts, a strong indicator of generative AI text capabilities."
+      },
+      {
+        "id": "ev-02",
+        "title": "Anatomical Hand Inconsistencies",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The fingers supporting the face and the positioning of the hand lack natural articulation and subtle tendon details typical of real photography."
+      },
+      {
+        "id": "ev-03",
+        "title": "Overly Perfect Cinematic Lighting",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "The interaction between the warm indoor desk lamp and the cool moonlight from the window creates an overly stylized, perfectly balanced contrast typical of text-to-image models."
+      },
+      {
+        "id": "ev-04",
+        "title": "Generic Filename Formatting",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "The filename 'IMG_1418.JPG.png' resembles standard default exports often associated with web downloads or automated pipeline generation."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "No matching stock photo or verified real-world context found in reverse image searches.",
+      "captionDifferences": "N/A",
+      "timeline": []
+    },
+    "id": "6c9aced8",
+    "createdAt": "September 5, 2026 at 11:11 AM GMT+5:30",
+    "mediaName": "IMG_1418.JPG.png"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 12,
+    "aiProbability": 10,
+    "manipulationProbability": 15,
+    "confidence": "High",
+    "explanation": "As AI Ano, forensic analysis of this image reveals natural lighting patterns, highly consistent anatomical features in the eyes, ears, fingers, and facial structure typical of a real photographic capture. The textures on the fabric (smocking detail) and skin pores indicate high fidelity consistent with modern smartphone photography, despite the filename suggesting a WhatsApp transfer. There are no classic generative AI artifacts like blending errors or distorted geometry.",
+    "evidence": [
+      {
+        "id": "ev-01",
+        "title": "Natural Skin and Fabric Textures",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Fine details in the smocked dress stitching, natural skin texture, and infant hair growth pattern display high realism inconsistent with current text-to-image generator artifacts."
+      },
+      {
+        "id": "ev-02",
+        "title": "Anatomical Consistency",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Fingers, fingernails, ear cartilage, and facial symmetry show correct anatomical proportions without the blending errors commonly found in AI generations."
+      },
+      {
+        "id": "ev-03",
+        "title": "Filename Metadata Indicator",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "The prefix 'WhatsApp Image' indicates standard social media compression/transfer, which typically strips deep metadata but preserves the underlying photographic integrity."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Standard personal photograph shared via messaging application.",
+      "captionDifferences": "None",
+      "timeline": [
+        {
+          "label": "Image Creation/Transfer",
+          "detail": "Received via WhatsApp messaging platform",
+          "date": "2026-08-27"
+        }
+      ]
+    },
+    "id": "28655b1c",
+    "createdAt": "September 5, 2026 at 11:14 AM GMT+5:30",
+    "mediaName": "WhatsApp Image 2026-08-27 at 10.59.32 AM (1).jpeg"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 95,
+    "aiProbability": 95,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "As AI Ano, I have conducted a forensic examination of the image. The visual elements strongly indicate the use of generative AI tools (such as Midjourney or DALL-E) to create promotional material. The central character features classic 3D-rendered AI aesthetics, highly stylized lighting, excessively smooth textures, and characteristic anatomical simplifications in the hands. Furthermore, the text rendered in Malayalam contains typical generative text distortions or nonsensical characters in some areas, which is a hallmark of current text-to-image models.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "3D Rendered Character Style",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The central character of the king/Maveli figure exhibits the overly polished, smooth 3D plastic texture typical of modern AI image generators."
+      },
+      {
+        "id": "ev-2",
+        "title": "Anatomical Simplification of Hands",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The hands resting near the banana leaf show lack of realistic skin texture, fingernail detail, and bone structure, pointing to typical AI generation artifacts."
+      },
+      {
+        "id": "ev-3",
+        "title": "AI Typography Artifacts",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "Text elements inside the thought bubbles and floating captions show irregular kerning, uneven stroke widths, and minor character warping characteristic of image generation models."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Commercial promotional graphic designed for local hotel advertising via social media.",
+      "captionDifferences": "N/A",
+      "timeline": []
+    },
+    "id": "4b5aa673",
+    "createdAt": "September 5, 2026 at 11:25 AM GMT+5:30",
+    "mediaName": "6d3f3987-1f15-46e4-86c9-8a803c8366df.png"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 12,
+    "aiProbability": 5,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "Based on forensic analysis of textures, lighting, and anatomical details, the image exhibits characteristics typical of a genuine photograph. The skin texture shows natural imperfections, fine baby hairs, and realistic lighting reflections in the eyes. While the file name contains WhatsApp indicators suggesting it has passed through social media compression (which can smooth out minor details), there are no definitive artifacts of generative AI models such as warping, asymmetrical facial features, or impossible fabric geometries. The clothing's smocking details and the depth of field appear consistent with standard portrait photography.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Natural Skin and Hair Textures",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Fine vellus hair on the forehead, natural skin pores, and realistic eyelashes indicate authentic photographic capture rather than AI generation."
+      },
+      {
+        "id": "ev-2",
+        "title": "Anatomical Consistency",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Hands, fingers, and facial proportions adhere strictly to human anatomy, lacking the common artifacts or melting effects found in synthetic images."
+      },
+      {
+        "id": "ev-3",
+        "title": "WhatsApp Compression Artifacts",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "File naming convention indicates transfer via messaging apps, resulting in minor loss of high-frequency details, which is normal for shared photos."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "No external matches found in public databases.",
+      "captionDifferences": "None",
+      "timeline": [
+        {
+          "label": "Received via WhatsApp",
+          "detail": "File downloaded from messaging platform",
+          "date": "2026-08-27"
+        }
+      ]
+    },
+    "id": "60f11214",
+    "createdAt": "September 5, 2026 at 11:25 AM GMT+5:30",
+    "mediaName": "WhatsApp Image 2026-08-27 at 10.59.32 AM (1).jpeg"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 85,
+    "aiProbability": 90,
+    "manipulationProbability": 40,
+    "confidence": "High",
+    "explanation": "As AI Ano, my forensic analysis indicates that this image is likely AI-generated or heavily synthesized using an image generation tool such as DALL-E or Midjourney, as evidenced by the file naming convention ('ChatGPT Image') and characteristic graphic design elements. The composition features a central photographic subject seamlessly blended with digital vector illustrations, floral patterns, and perfectly rendered typography. While the central human subject appears realistic, the overall asset functions as a digital greeting card or poster typical of generative design templates.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Metadata Name Indication",
+        "severity": "HIGH",
+        "category": "metadata",
+        "description": "The filename 'ChatGPT Image Jul 31, 2026...' strongly points toward a direct generation output from an AI model like OpenAI's DALL-E."
+      },
+      {
+        "id": "ev-2",
+        "title": "Synthetic Typography and Layout",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "The text elements ('HAPPY BIRTHDAY' and the name banner) are crisply integrated into the background layers with perfect vector alignment typical of AI graphics generation."
+      },
+      {
+        "id": "ev-3",
+        "title": "Composite Graphics and Florals",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "The surrounding watercolor-style flowers, butterflies, and hand-drawn hearts exhibit a clean, digitally rendered aesthetic designed for greeting card templates."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "2026-07-31",
+      "matchingMedia": 0,
+      "contextComparison": "Generated as a greeting graphic or poster template.",
+      "captionDifferences": "None",
+      "timeline": [
+        {
+          "label": "Creation",
+          "detail": "Image generated via AI tool.",
+          "date": "2026-07-31"
+        }
+      ]
+    },
+    "id": "fece58c6",
+    "createdAt": "September 5, 2026 at 11:26 AM GMT+5:30",
+    "mediaName": "ChatGPT Image Jul 31, 2026, 11_10_31 PM.png"
+  },
+  {
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 95,
+    "aiProbability": 95,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "As AI Ano, my forensic analysis of the file name 'ChatGPT Image' combined with visual artifacts strongly indicates this image is AI-generated. The composition exhibits classic generative design traits: symmetrical floral frame styling with stylized butterflies, perfectly crisp synthetic typography blended into the background layers, and an uncanny smoothness to the central subject's facial features and lighting that point directly to a text-to-image pipeline output.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Filename Metadata Indicator",
+        "severity": "HIGH",
+        "category": "metadata",
+        "description": "The file name explicitly references 'ChatGPT Image', strongly indicating direct generation from an AI tool."
+      },
+      {
+        "id": "ev-2",
+        "title": "Synthetic Graphic Design Elements",
+        "severity": "HIGH",
+        "category": "visual",
+        "description": "The background text ('HAPPY BIRTHDAY'), decorative flowers, and butterflies are rendered in a clean, vector-like aesthetic typical of AI layout generation, seamlessly interwoven with the subject."
+      },
+      {
+        "id": "ev-3",
+        "title": "Over-smoothed Facial and Textural Details",
+        "severity": "MEDIUM",
+        "category": "visual",
+        "description": "The lighting on the subject's face and clothing lacks natural photographic inconsistencies, displaying the characteristic airbrushed smoothness of modern neural network rendering."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "2026-07-31",
+      "matchingMedia": 0,
+      "contextComparison": "Designed as a digital birthday greeting or poster.",
+      "captionDifferences": "None",
+      "timeline": [
+        {
+          "label": "Generated",
+          "detail": "Image created via generative AI tool.",
+          "date": "2026-07-31"
+        }
+      ]
+    },
+    "id": "022b0045",
+    "createdAt": "September 5, 2026 at 11:31 AM GMT+5:30",
+    "mediaName": "ChatGPT Image Jul 31, 2026, 11_10_31 PM.png"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 12,
+    "aiProbability": 10,
+    "manipulationProbability": 15,
+    "confidence": "High",
+    "explanation": "As AI Ano, my forensic analysis indicates that this image is likely an authentic photograph. The facial features, skin texture, lighting reflections in the eyes, and natural asymmetry of the infant's hands and fingers are consistent with genuine optical capture. The filename pattern 'WhatsApp Image...' indicates standard messaging platform compression, which commonly strips EXIF metadata but does not inherently imply synthetic generation. Minor skin smoothing may be present due to in-camera processing or messaging app re-compression, but the core anatomical structures show no hallmark signs of diffusion model generation artifacts.",
+    "evidence": [
+      {
+        "id": "ev-01",
+        "title": "Anatomical Consistency",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "The baby's fingers, hands, and facial features display realistic proportions and natural anatomical details without common AI generation distortions."
+      },
+      {
+        "id": "ev-02",
+        "title": "Natural Lighting and Reflections",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Catchlights in the eyes are consistent and match ambient indoor lighting, showing realistic specular highlights."
+      },
+      {
+        "id": "ev-03",
+        "title": "Messaging Platform Naming Convention",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "The filename 'WhatsApp Image...' suggests the file was shared via WhatsApp, which typically strips original EXIF metadata and applies light compression."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "No external context or conflicting copies found in indexed databases.",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "id": "4f7615e1",
+    "createdAt": "September 5, 2026 at 11:31 AM GMT+5:30",
+    "mediaName": "WhatsApp Image 2026-08-27 at 10.59.32 AM (1).jpeg"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 12,
+    "aiProbability": 5,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "As forensic media analyst AI Ano, I have evaluated the image and its metadata characteristics. The file name 'WhatsApp Image...' indicates standard social media transit compression, which is common. Visual inspection reveals natural lighting inconsistencies typical of indoor smartphone photography, realistic skin textures, accurate human facial symmetry, and correct anatomical proportions for the arms and hands. There are no signs of generative AI artifacts, warping, or digital tampering.",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "title": "Natural Lighting and Shadows",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "The backlighting from the window and ambient indoor lighting cast realistic highlights and shadows across the subject's face and shirt without algorithmic inconsistencies."
+      },
+      {
+        "id": "ev-2",
+        "title": "Anatomical Consistency",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Facial features, teeth, and the structure of the arms and forearms show no signs of generative AI warping or structural hand/finger anomalies."
+      },
+      {
+        "id": "ev-3",
+        "title": "Filename Pattern",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "The naming convention suggests the file was shared via WhatsApp, leading to standard compression artifacts rather than synthetic creation."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "2026-09-05",
+      "matchingMedia": 0,
+      "contextComparison": "Consistent with casual indoor smartphone photography.",
+      "captionDifferences": "None available",
+      "timeline": [
+        {
+          "label": "Creation/Sharing",
+          "detail": "Image received via messaging platform.",
+          "date": "2026-09-05"
+        }
+      ]
+    },
+    "id": "8f3f50cc",
+    "createdAt": "September 5, 2026 at 11:37 AM GMT+5:30",
+    "mediaName": "WhatsApp Image 2026-09-05 at 11.36.08 AM.jpeg"
+  },
+  {
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 12,
+    "aiProbability": 5,
+    "manipulationProbability": 10,
+    "confidence": "High",
+    "explanation": "As forensic media analyst AI Ano, I have evaluated the provided video (\"WhatsApp Video 2026-09-05 at 11.36.13 AM (1).mp4\"). The video exhibits natural lighting transitions, realistic hand-eye coordination during computer interaction, and normal anatomical structures without typical AI-generation artifacts such as warping textures or morphing fingers. The filename suggests a typical mobile messaging platform compression trace, but the visual content displays organic camera movement and realistic reflections, strongly indicating it is an authentic, unmanipulated recording.",
+    "evidence": [
+      {
+        "id": "ev-01",
+        "title": "Natural Lighting and Shadows",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "The backlighting coming from the windows and interior fluorescent lights casts consistent, natural highlights and shadows on the subjects and environment."
+      },
+      {
+        "id": "ev-02",
+        "title": "Anatomical Consistency",
+        "severity": "LOW",
+        "category": "visual",
+        "description": "Human subjects demonstrate realistic micro-movements, natural hand placements on keyboards and faces, and consistent facial features across frames."
+      },
+      {
+        "id": "ev-03",
+        "title": "Messaging Platform Naming Convention",
+        "severity": "LOW",
+        "category": "metadata",
+        "description": "The file name follows standard WhatsApp export naming formats, pointing towards user-generated mobile capture rather than synthetic generation."
+      }
+    ],
+    "sourceVerification": {
+      "sourceUrl": "No authoritative original located",
+      "publicationDate": "Unknown",
+      "matchingMedia": 0,
+      "contextComparison": "Consistent with casual office or computer lab documentation.",
+      "captionDifferences": "None available",
+      "timeline": []
+    },
+    "id": "cde1f5b1",
+    "createdAt": "September 5, 2026 at 11:40 AM GMT+5:30",
+    "mediaName": "WhatsApp Video 2026-09-05 at 11.36.13 AM (1).mp4"
+  }
+]
