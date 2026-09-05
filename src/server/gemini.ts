@@ -66,22 +66,50 @@ Important rules:
 3. Be brutally honest. If you see AI artifacts (weird fingers, illogical lighting, background blurring), flag them as HIGH severity evidence.
 `;
 
-  const response = await aiClient.models.generateContent({
-    model: "gemini-3.5-flash-lite",
-    contents: [
-      {
-        role: "user",
-        parts: [
-          { text: prompt },
-          { inlineData: { data: base64Data, mimeType } },
-        ],
+  let response;
+  try {
+    response = await aiClient.models.generateContent({
+      model: "gemini-3.5-flash-lite",
+      contents: [
+        {
+          role: "user",
+          parts: [
+            { text: prompt },
+            { inlineData: { data: base64Data, mimeType } },
+          ],
+        },
+      ],
+      config: {
+        responseMimeType: "application/json",
+        temperature: 0.2,
       },
-    ],
-    config: {
-      responseMimeType: "application/json",
-      temperature: 0.2,
-    },
-  });
+    });
+  } catch (error: any) {
+    console.warn("Primary API key failed or rate limited:", error?.message);
+    const backupKey = process.env.GEMINI_API_KEY_BACKUP;
+    if (backupKey) {
+      console.log("Switching to BACKUP API KEY...");
+      const backupAi = new GoogleGenAI({ apiKey: backupKey });
+      response = await backupAi.models.generateContent({
+        model: "gemini-3.5-flash-lite",
+        contents: [
+          {
+            role: "user",
+            parts: [
+              { text: prompt },
+              { inlineData: { data: base64Data, mimeType } },
+            ],
+          },
+        ],
+        config: {
+          responseMimeType: "application/json",
+          temperature: 0.2,
+        },
+      });
+    } else {
+      throw error;
+    }
+  }
 
   const text = response.text;
   if (!text) {
