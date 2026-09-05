@@ -24,7 +24,7 @@ export function DashboardMockup() {
   return (
     <div className="relative rounded-2xl border border-border bg-card p-3 shadow-card">
       <div className="rounded-xl bg-foreground p-4 text-background">
-        <div className="flex items-center justify-between"><span className="text-xs font-bold">TrustLens analysis</span><span className="rounded-full bg-background/10 px-2 py-1 text-[9px]">Complete</span></div>
+        <div className="flex items-center justify-between"><span className="text-xs font-bold">AI Ano analysis</span><span className="rounded-full bg-background/10 px-2 py-1 text-[9px]">Complete</span></div>
         <div className="mt-4 grid gap-3 sm:grid-cols-[1.1fr_.9fr]">
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-background/10"><div className="absolute inset-[14%] rounded-full border border-primary-foreground/20"/><ScanLine className="absolute inset-0 m-auto size-16 text-primary-foreground/70"/><div className="absolute inset-x-4 bottom-4 h-1 rounded-full bg-background/20"><div className="h-full w-4/5 rounded-full bg-primary"/></div></div>
           <div className="space-y-3"><div className="rounded-lg bg-background/10 p-3"><p className="text-[9px] text-background/65">RISK SCORE</p><p className="mt-1 text-3xl font-extrabold">86<span className="text-sm text-background/60">/100</span></p></div>{['Visual signals','Metadata','Source context'].map((label, i) => <div key={label} className="flex items-center justify-between rounded-lg bg-background/10 px-3 py-2 text-[10px]"><span>{label}</span><span className="font-bold">{[6,2,4][i]} signals</span></div>)}</div>

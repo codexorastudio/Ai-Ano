@@ -950,5 +950,45 @@
     },
     "createdAt": "September 5, 2026",
     "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-1",
+    "verdict": "LIKELY AUTHENTIC",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
+  },
+  {
+    "id": "test-db-2",
+    "verdict": "LIKELY AI-GENERATED",
+    "riskScore": 15,
+    "aiProbability": 10,
+    "manipulationProbability": 5,
+    "confidence": "High",
+    "explanation": "Test explanation",
+    "evidence": [],
+    "sourceVerification": {
+      "sourceUrl": "N/A",
+      "publicationDate": "Today",
+      "matchingMedia": 0,
+      "contextComparison": "None",
+      "captionDifferences": "None",
+      "timeline": []
+    },
+    "createdAt": "September 5, 2026",
+    "mediaName": "test.jpg"
   }
 ]

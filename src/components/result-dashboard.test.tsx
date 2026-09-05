@@ -28,7 +28,7 @@ describe('ResultDashboard Component - Tests', () => {
       contextComparison: 'No related versions detected',
       captionDifferences: 'No matching versions were found.',
       timeline: [
-        { label: 'Ingested', detail: 'Uploaded to TrustLens', date: 'Today' },
+        { label: 'Ingested', detail: 'Uploaded to AI Ano', date: 'Today' },
       ],
     },
     createdAt: 'September 5, 2026',

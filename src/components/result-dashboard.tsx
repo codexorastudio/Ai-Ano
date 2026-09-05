@@ -63,7 +63,7 @@ export function ResultDashboard({ result, example = false }: { result: AnalysisR
   function downloadReport() {
     const reportLines = [
       `==================================================`,
-      `       TrustLens — MEDIA VERIFICATION REPORT      `,
+      `       AI Ano — MEDIA VERIFICATION REPORT      `,
       `==================================================`,
       ``,
       `Report ID: ${result.id}`,
@@ -105,7 +105,7 @@ export function ResultDashboard({ result, example = false }: { result: AnalysisR
       `Caption Analysis:    ${result.sourceVerification.captionDifferences}`,
       ``,
       `==================================================`,
-      `      © 2026 TrustLens — See. Verify. Trust.      `,
+      `      © 2026 AI Ano — See. Verify. Trust.      `,
       `==================================================`,
     ];
 
@@ -113,7 +113,7 @@ export function ResultDashboard({ result, example = false }: { result: AnalysisR
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement("a");
     anchor.href = url;
-    anchor.download = `trustlens-report-${result.id}.txt`;
+    anchor.download = `aiano-report-${result.id}.txt`;
     document.body.appendChild(anchor);
     anchor.click();
     document.body.removeChild(anchor);

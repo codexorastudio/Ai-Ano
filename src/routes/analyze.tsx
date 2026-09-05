@@ -7,12 +7,12 @@ import { analyzeMediaFn } from "@/server/functions";
 export const Route = createFileRoute("/analyze")({
   head: () => ({
     meta: [
-      { title: "Analyze Media — TrustLens" },
+      { title: "Analyze Media — AI Ano" },
       {
         name: "description",
         content: "Upload an image, audio, or video for clear, evidence-led AI media verification.",
       },
-      { property: "og:title", content: "Analyze Media — TrustLens" },
+      { property: "og:title", content: "Analyze Media — AI Ano" },
       {
         property: "og:description",
         content: "Inspect media for potential AI generation and manipulation signals.",

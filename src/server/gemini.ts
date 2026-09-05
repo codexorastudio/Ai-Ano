@@ -32,7 +32,7 @@ export async function analyzeMediaWithGemini(
   }
 
   const prompt = `
-You are a highly advanced forensic media analyst AI named TrustLens. 
+You are a highly advanced forensic media analyst AI named AI Ano. 
 Your job is to inspect the provided media (image, audio, or video) and determine if it is authentic, potentially manipulated, or likely AI-generated.
 
 File Name: "${fileName}"

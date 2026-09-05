@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — TrustLens Media Verification" },
+      { title: "About — AI Ano Media Verification" },
       {
         name: "description",
-        content: "Learn about TrustLens, our evidence-led media verification methodology, responsible AI practices, and forensic limitations.",
+        content: "Learn about AI Ano, our evidence-led media verification methodology, responsible AI practices, and forensic limitations.",
       },
-      { property: "og:title", content: "About — TrustLens Media Verification" },
+      { property: "og:title", content: "About — AI Ano Media Verification" },
       { property: "og:description", content: "Probabilistic media verification designed to support, not replace, human judgment." },
       { property: "og:type", content: "website" },
     ],
@@ -31,7 +31,7 @@ function AboutPage() {
             Empowering Truth in the <span className="text-primary">Age of Generative AI</span>
           </h1>
           <p className="mt-6 text-base leading-8 text-muted-foreground sm:text-lg">
-            TrustLens provides journalists, researchers, fact-checkers, and digital citizens with transparent, evidence-led tools to interrogate synthetic media and manipulation.
+            AI Ano provides journalists, researchers, fact-checkers, and digital citizens with transparent, evidence-led tools to interrogate synthetic media and manipulation.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button size="lg" asChild>
@@ -61,7 +61,7 @@ function AboutPage() {
               </p>
             </div>
             <div className="rounded-2xl border border-border bg-card p-6 shadow-card space-y-4">
-              <h3 className="font-extrabold text-lg">The TrustLens Principles</h3>
+              <h3 className="font-extrabold text-lg">The AI Ano Principles</h3>
               <ul className="space-y-3">
                 {[
                   "Evidence over Assumptions: We isolate visual, spectral, and metadata anomalies rather than guessing.",
